@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background-image: url('https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/air-pollution/Air%20pollution_shutterstock_1033831132.jpg');
+  background-size: cover;
+  backdrop-filter: blur(5px);
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.85);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 350px;
+  margin: 50px;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 10px;
+  font-style: oblique;
+}
+
+p {
+  margin-bottom: 20px;
+  color: #555;
+  font-style: italic;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #444;
+}
+
+input[type="text"],
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+
+  border-top: 1px solid white;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  font-size: 16px;
+  outline: none;
+}
+
+#age:active {
+  border-bottom: 5px solid #f44336;
+}
+
+.button-group {
+  margin-top: 15px;
+}
+
+button {
+  width: 48%;
+  height: 40px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  z-index: -99;
+}
+button * {
+  padding: 10px 45px;
+}
+.reset-btn {
+  background-color: #f44336;
+  color: white;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+.submit-btn {
+  background-color: green;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+}
